@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+span.preco {
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+  color: #2d2c2a;
+}
+body {
+  background-color: #ffedd5;
+  max-width: 320px;
+  margin: 0 auto;
+  font-family: "Roboto", Times, serif;
+}
+header {
+  padding-top: 30px;
+  text-align: center;
+}
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+}
+h1 span {
+  color: rgba(153, 80, 0, 1);
+}
+p.descricao {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 5px;
+}
+.cardapio {
+  margin: 30px 0;
+}
+.cardapio h2 {
+  font-size: 18px;
+  text-align: center;
+  background-color: #fed7aa;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+li.informacoes {
+  display: flex;
+  gap: 15px;
+  padding: 15px 0;
+}
+.itens h3 {
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+.itens p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 20px;
+}
